@@ -6,7 +6,7 @@ from bertopic.vectorizers import ClassTfidfTransformer
 from bertopic.representation import MaximalMarginalRelevance
 
 
-df = pd.read_csv('dfPreprocessed.csv')
+df = pd.read_csv('dfPreprocessed.csv', engine='python')
 docKey = df['Key Phrases'].to_list()
 
 # Conducted multiple iterations to identify the optimal parameters.
