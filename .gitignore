@@ -1,0 +1,12 @@
+# Ignore these files containing the authentication information
+A_webScrape/env.txt
+A_webScrape/zyte-ca.crt
+
+B_nlpModel/Archived
+
+# Ignore all files that start with a dot in these folders .   
+A_webScrape/.* 
+B_nlpModel/.*
+
+# Note to self: Ignoring all files that start with a dot can create issues if the gitignore is ignored.
+# Aka, Don't ignore the gitignore 
